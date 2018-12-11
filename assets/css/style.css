@@ -1,111 +1,83 @@
 html, body {
-    background-color: lightseagreen;
+    background-color:white;
     color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.header{
-    font-size: 40px;
+.jumbotron{
     text-align: center;
     font-weight: bold;
+    background-image: url(../images/amethyst.jpg) !important;
     color: white;
-    margin-top: 30px;
+    margin-top: 0px;
+    width: 100%;
+    height: 200px;
     padding: 10px;
     letter-spacing: 3px;
-    text-shadow: 6px 2px grey;
-    font-style: italic;
+    text-shadow: 5px 1px grey;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.container{
-    background-color: white;
-    width: 900px;
-    padding: 20px;
-    color: darkgrey;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    margin: auto;
-    text-align: justify;
+.display-4{
+    font-size: 80px !important;
+}
+
+.instructions{
+    color: darkgray !important;
+    font-weight: bold;
+    font-size: 40px
+}
+
+.directions{
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    padding-bottom: 20px;
 }
 
 p{
     line-height: 1;
-}
-
-.numbers{
-    width: 650px;
-    padding: 10px;
+    background-color: white;
+    width: 100%;
+    color: darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
     margin: auto;
+    text-align: left;
+
 }
 
-.numscores{
-    width: 900px;
-}
-
-.randomnumber{
-    width: 300px;
-    height: 300px;
-    background-color:salmon;
-    float: left;
-    font-size: 70px;
-    font-weight: bold;
+.target-number{
+    background-color: purple;
     color: white;
-    padding: 15px;
+    padding-top: 10px;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-.score{
-    width: 300px;
-    height: 300px;
-    background-color: lightskyblue;
-    float: left;
-    font-size: 70px;
+    font-size: 30px;
     font-weight: bold;
-    color: white;
-    padding: 15px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
+    height: 100px;
+    border-style: solid;
+    border-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-    float: left;
-    width: 23%;
-    padding: 2px;
-  }
+.total{
+    border-style: dotted;
+    border-color: purple;
+    font-size: 15px;
+    color: purple;
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-  .row{
-      margin: auto;
-      width: 900px; 
-  }
-  
-  /* Clear floats after image containers */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+.estimating-number{
+    font-size: 20px;
+    color: gold;
+}
 
-  .playerscore{
-      width: 500px;
-      margin: auto;
-      color: lightseagreen;
-      background-color:white;
-      font-weight: bold;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      text-align: center;
-      padding: 10px;
-  }
-
-  .totalnumber{
-      font-size: 50px;
-      background-color: white;
-      color: lightseagreen;
-      font-weight: bold;
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-      text-align: center;
-      width: 500px;
-      padding: 10px;
-      margin: auto;
-  }
+.counter{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
